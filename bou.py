@@ -26,6 +26,8 @@ import fnmatch
 import os
 import time
 
+# PREPROCESADOR
+#-------------------------------------------------------------------------
 lista_imagenes = []
 if args['imagen'] == None : #Imanen nula --> directorio
     #Listo todos los tios de imagenes que OpenCV es capaz de cargar
@@ -70,6 +72,7 @@ print (lista_imagenes)
 # carga la red VGG16
 print("[BOU-ESTADO] cargando red neuronal...")
 model = VGG16(weights="imagenet")
+
 #Empieza el procesado de la lista de imágenes
 for imagen in lista_imagenes:
     hora_inicio = time.clock()
@@ -82,18 +85,23 @@ for imagen in lista_imagenes:
     image = image_utils.img_to_array(image)
     image = np.expand_dims(image, axis=0)
     image = preprocess_input(image)
+# VGG16
+#-------------------------------------------------------------------------
     # clasificación de la imagen
     print("[BOU-ESTADO] clasificando imagen...")
     preds = model.predict(image)
+# POSTPROCESADOR
+#-------------------------------------------------------------------------
     #print("[BOU-INFO] la clasificación del modelo da: " + preds)
     (inID, label) = decode_predictions(preds)[0]
     duracion = time.clock() - hora_inicio
     # ahora pinta en la imagen original la etiqueta y la muestra
     print("[BOU-INFO] ImageNet ID: {}, Etiqueta: {}, Tiempo {}".format(inID, label, duracion))
-    cv2.putText(orig, "Etiqueta: {}".format(label), (10, 30),
-    	cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
-    cv2.imshow("Cladificacion", orig)
-    cv2.waitKey(0)
+    #cv2.putText(orig, "E
+    tiqueta: {}".format(label), (10, 30),
+    #cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+    #cv2.imshow("Cladificacion", orig)
+    #cv2.waitKey(0)
     
 print ("[BOU-ESTADO] Fin ejecución")
 
