@@ -97,8 +97,7 @@ for imagen in lista_imagenes:
     duracion = time.clock() - hora_inicio
     # ahora pinta en la imagen original la etiqueta y la muestra
     print("[BOU-INFO] ImageNet ID: {}, Etiqueta: {}, Tiempo {}".format(inID, label, duracion))
-    #cv2.putText(orig, "E
-    tiqueta: {}".format(label), (10, 30),
+    #cv2.putText(orig, "Etiqueta: {}".format(label), (10, 30),
     #cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
     #cv2.imshow("Cladificacion", orig)
     #cv2.waitKey(0)
