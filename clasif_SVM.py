@@ -47,9 +47,7 @@ print (lista_imagenes)
 
 # carga la red VGG16
 print("[BOU-ESTADO] cargando red neuronal con include_top={}...".format(opts.include_top))
-print(args['include_top'])
 model = VGG16(include_top=opts.include_top, weights="imagenet")
-#model = VGG16(include_top=True, weights="imagenet")
 
 #Empieza el procesado de la lista de imágenes
 for imagen in lista_imagenes:
