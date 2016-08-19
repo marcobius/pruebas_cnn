@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>368</y>
+      <w>168</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>InterfazCNN
+--
+modelo: VGG16
+--
+procesaImagen(ImagenSinProcesar):ImagenProcesada
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>168</y>
+      <w>160</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>ControladorPrincipal
+--
+iCNN: InterfazCNN 
+iBD: InterfazBD
+iCapt: InerfazCaptador
+--
+main(archivo o directorio)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>512</y>
+      <w>80</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>VGG16
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>32</y>
+      <w>160</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Imagen
+--
+id: numero
+archivo: String
+imagenCV2: puntero
+posicion: coordenadas
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>352</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>IntefazBD
+--
+
+--
+almacena(img: imagenProcesada)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>192</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>ImagenSinProcesar
+--
+????
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>176</x>
+      <y>192</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>ImagenProcesada
+--
+clasificacion: Tipo
+probabilidad: real(0-1)
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>128</y>
+      <w>112</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>72</x>
+      <y>128</y>
+      <w>112</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>272</y>
+      <w>240</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=1..1
+usa &gt;</panel_attributes>
+    <additional_attributes>10.0;120.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>464</y>
+      <w>120</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=1..n
+usa &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>272</y>
+      <w>104</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=1..1
+usa &gt;</panel_attributes>
+    <additional_attributes>110.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>376</x>
+      <y>40</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Coordenadas
+--
+????
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>368</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>InterfazCaptador
+--
+
+--
+getImages(): ImagenSinProcesar[]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
