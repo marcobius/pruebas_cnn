@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>60</x>
-      <y>70</y>
+      <x>50</x>
+      <y>90</y>
       <w>210</w>
       <h>30</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>90</y>
+      <x>140</x>
+      <y>110</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>150</x>
-      <y>140</y>
+      <x>140</x>
+      <y>160</y>
       <w>20</w>
       <h>340</h>
     </coordinates>
@@ -38,8 +38,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>310</x>
-      <y>70</y>
+      <x>300</x>
+      <y>90</y>
       <w>160</w>
       <h>30</h>
     </coordinates>
@@ -49,8 +49,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>130</y>
+      <x>150</x>
+      <y>150</y>
       <w>240</w>
       <h>40</h>
     </coordinates>
@@ -61,8 +61,8 @@ getImages()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>380</x>
-      <y>140</y>
+      <x>370</x>
+      <y>160</y>
       <w>20</w>
       <h>30</h>
     </coordinates>
@@ -73,8 +73,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>90</y>
+      <x>370</x>
+      <y>110</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -84,8 +84,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>160</y>
+      <x>370</x>
+      <y>180</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -95,8 +95,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
-      <y>70</y>
+      <x>470</x>
+      <y>90</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -106,8 +106,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>90</y>
+      <x>520</x>
+      <y>110</y>
       <w>30</w>
       <h>130</h>
     </coordinates>
@@ -117,8 +117,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
-      <y>200</y>
+      <x>520</x>
+      <y>220</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -129,8 +129,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>250</y>
+      <x>520</x>
+      <y>270</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -140,8 +140,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>190</y>
+      <x>150</x>
+      <y>210</y>
       <w>390</w>
       <h>40</h>
     </coordinates>
@@ -152,8 +152,8 @@ procesaImagen()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>610</x>
-      <y>70</y>
+      <x>600</x>
+      <y>90</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -163,8 +163,8 @@ procesaImagen()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>230</y>
+      <x>150</x>
+      <y>250</y>
       <w>390</w>
       <h>40</h>
     </coordinates>
@@ -175,8 +175,8 @@ ImagenProcesada</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>90</y>
+      <x>650</x>
+      <y>110</y>
       <w>30</w>
       <h>220</h>
     </coordinates>
@@ -186,8 +186,8 @@ ImagenProcesada</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>660</x>
-      <y>290</y>
+      <x>650</x>
+      <y>310</y>
       <w>20</w>
       <h>60</h>
     </coordinates>
@@ -198,8 +198,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>280</y>
+      <x>150</x>
+      <y>300</y>
       <w>520</w>
       <h>40</h>
     </coordinates>
@@ -210,8 +210,8 @@ almacena()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>340</y>
+      <x>650</x>
+      <y>360</y>
       <w>30</w>
       <h>140</h>
     </coordinates>
@@ -221,8 +221,8 @@ almacena()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>70</x>
-      <y>140</y>
+      <x>60</x>
+      <y>160</y>
       <w>130</w>
       <h>210</h>
     </coordinates>
@@ -233,8 +233,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>470</y>
+      <x>140</x>
+      <y>490</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -244,8 +244,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>320</y>
+      <x>370</x>
+      <y>340</y>
       <w>30</w>
       <h>70</h>
     </coordinates>
@@ -255,8 +255,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>380</x>
-      <y>360</y>
+      <x>370</x>
+      <y>380</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -266,8 +266,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>360</y>
+      <x>150</x>
+      <y>380</y>
       <w>250</w>
       <h>30</h>
     </coordinates>
@@ -277,8 +277,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>320</y>
+      <x>520</x>
+      <y>340</y>
       <w>30</w>
       <h>110</h>
     </coordinates>
@@ -288,8 +288,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>530</x>
-      <y>400</y>
+      <x>520</x>
+      <y>420</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -299,8 +299,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>660</x>
-      <y>450</y>
+      <x>650</x>
+      <y>470</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -310,8 +310,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>400</y>
+      <x>150</x>
+      <y>420</y>
       <w>400</w>
       <h>30</h>
     </coordinates>
@@ -321,8 +321,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>450</y>
+      <x>150</x>
+      <y>470</y>
       <w>530</w>
       <h>30</h>
     </coordinates>
@@ -332,8 +332,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>150</x>
-      <y>500</y>
+      <x>140</x>
+      <y>520</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -343,8 +343,8 @@ mientras noFin</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>40</x>
-      <y>20</y>
+      <x>30</x>
+      <y>40</y>
       <w>720</w>
       <h>500</h>
     </coordinates>
