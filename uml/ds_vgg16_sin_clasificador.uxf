@@ -4,7 +4,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>144</x>
+      <x>153</x>
       <y>0</y>
       <w>90</w>
       <h>27</h>
@@ -16,7 +16,7 @@ bg=orange</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>180</x>
+      <x>189</x>
       <y>18</y>
       <w>27</w>
       <h>54</h>
@@ -27,7 +27,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>180</x>
+      <x>189</x>
       <y>54</y>
       <w>18</w>
       <h>450</h>
@@ -39,7 +39,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
+      <x>72</x>
       <y>45</y>
       <w>135</w>
       <h>36</h>
@@ -51,7 +51,7 @@ main</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>333</x>
+      <x>342</x>
       <y>72</y>
       <w>90</w>
       <h>27</h>
@@ -62,7 +62,7 @@ main</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>72</y>
       <w>162</w>
       <h>36</h>
@@ -74,7 +74,7 @@ include_top=False</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
+      <x>378</x>
       <y>90</y>
       <w>27</w>
       <h>63</h>
@@ -85,7 +85,7 @@ include_top=False</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>369</x>
+      <x>378</x>
       <y>135</y>
       <w>18</w>
       <h>72</h>
@@ -97,7 +97,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>126</y>
       <w>198</w>
       <h>36</h>
@@ -109,7 +109,7 @@ predict(img)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>180</y>
       <w>198</w>
       <h>36</h>
@@ -121,7 +121,7 @@ preds</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>369</x>
+      <x>378</x>
       <y>198</y>
       <w>27</w>
       <h>54</h>
@@ -132,7 +132,7 @@ preds</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
+      <x>477</x>
       <y>234</y>
       <w>90</w>
       <h>27</h>
@@ -144,7 +144,7 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>279</y>
       <w>333</w>
       <h>45</h>
@@ -157,7 +157,7 @@ clasifica(preds)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>513</x>
       <y>252</y>
       <w>27</w>
       <h>54</h>
@@ -168,7 +168,7 @@ clasifica(preds)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>504</x>
+      <x>513</x>
       <y>288</y>
       <w>18</w>
       <h>72</h>
@@ -180,7 +180,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>333</y>
       <w>333</w>
       <h>36</h>
@@ -192,7 +192,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>513</x>
       <y>351</y>
       <w>27</w>
       <h>54</h>
@@ -203,7 +203,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>504</x>
+      <x>513</x>
       <y>378</y>
       <w>18</w>
       <h>18</h>
@@ -214,7 +214,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>369</x>
+      <x>378</x>
       <y>225</y>
       <w>18</w>
       <h>18</h>
@@ -225,7 +225,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>180</x>
+      <x>189</x>
       <y>495</y>
       <w>27</w>
       <h>72</h>
@@ -236,7 +236,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>180</x>
+      <x>189</x>
       <y>540</y>
       <w>18</w>
       <h>18</h>
@@ -249,16 +249,16 @@ clase:Real (0..1)</panel_attributes>
     <coordinates>
       <x>630</x>
       <y>342</y>
-      <w>90</w>
+      <w>117</w>
       <h>27</h>
     </coordinates>
-    <panel_attributes>_:feedback_</panel_attributes>
+    <panel_attributes>_:clasificadorHMI_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
+      <x>675</x>
       <y>360</y>
       <w>27</w>
       <h>54</h>
@@ -269,7 +269,7 @@ clase:Real (0..1)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>666</x>
+      <x>675</x>
       <y>396</y>
       <w>18</w>
       <h>72</h>
@@ -281,7 +281,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>396</y>
       <w>495</w>
       <h>36</h>
@@ -293,7 +293,7 @@ check_user(img, clase)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>198</x>
       <y>441</y>
       <w>495</w>
       <h>36</h>
@@ -305,7 +305,7 @@ clase_real:Real (0..1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
+      <x>675</x>
       <y>459</y>
       <w>27</w>
       <h>54</h>
@@ -316,7 +316,7 @@ clase_real:Real (0..1)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>666</x>
+      <x>675</x>
       <y>486</y>
       <w>18</w>
       <h>18</h>
@@ -327,7 +327,7 @@ clase_real:Real (0..1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>72</x>
+      <x>81</x>
       <y>72</y>
       <w>144</w>
       <h>441</h>
