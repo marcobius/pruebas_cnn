@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>368</y>
+      <x>328</x>
+      <y>312</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -21,7 +21,7 @@ procesaImagen(ImagenSinProcesar):ImagenProcesada
     <id>UMLClass</id>
     <coordinates>
       <x>472</x>
-      <y>168</y>
+      <y>136</y>
       <w>160</w>
       <h>112</h>
     </coordinates>
@@ -37,8 +37,8 @@ main(archivo o directorio)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>424</x>
-      <y>512</y>
+      <x>472</x>
+      <y>480</y>
       <w>80</w>
       <h>104</h>
     </coordinates>
@@ -53,7 +53,7 @@ main(archivo o directorio)</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>96</x>
-      <y>32</y>
+      <y>0</y>
       <w>160</w>
       <h>104</h>
     </coordinates>
@@ -72,7 +72,7 @@ posicion: coordenadas
     <id>UMLClass</id>
     <coordinates>
       <x>536</x>
-      <y>352</y>
+      <y>320</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -88,7 +88,7 @@ almacena(img: imagenProcesada)
     <id>UMLClass</id>
     <coordinates>
       <x>8</x>
-      <y>192</y>
+      <y>160</y>
       <w>160</w>
       <h>64</h>
     </coordinates>
@@ -104,7 +104,7 @@ almacena(img: imagenProcesada)
     <id>UMLClass</id>
     <coordinates>
       <x>176</x>
-      <y>192</y>
+      <y>160</y>
       <w>160</w>
       <h>64</h>
     </coordinates>
@@ -121,7 +121,7 @@ probabilidad: real(0-1)
     <id>Relation</id>
     <coordinates>
       <x>160</x>
-      <y>128</y>
+      <y>96</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -132,7 +132,7 @@ probabilidad: real(0-1)
     <id>Relation</id>
     <coordinates>
       <x>72</x>
-      <y>128</y>
+      <y>96</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -142,36 +142,36 @@ probabilidad: real(0-1)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>272</y>
-      <w>240</w>
-      <h>112</h>
+      <x>400</x>
+      <y>240</y>
+      <w>160</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
 m2=1..1
 usa &gt;</panel_attributes>
-    <additional_attributes>10.0;120.0;280.0;10.0</additional_attributes>
+    <additional_attributes>10.0;90.0;180.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>464</y>
+      <x>400</x>
+      <y>408</y>
       <w>120</w>
-      <h>112</h>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..1
 m2=1..n
 usa &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;120.0</additional_attributes>
+    <additional_attributes>10.0;10.0;130.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>552</x>
-      <y>272</y>
+      <y>240</y>
       <w>104</w>
       <h>96</h>
     </coordinates>
@@ -185,7 +185,7 @@ usa &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>376</x>
-      <y>40</y>
+      <y>8</y>
       <w>160</w>
       <h>64</h>
     </coordinates>
@@ -201,7 +201,7 @@ usa &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>48</x>
-      <y>368</y>
+      <y>336</y>
       <w>160</w>
       <h>64</h>
     </coordinates>
@@ -212,5 +212,34 @@ usa &gt;</panel_attributes>
 getImages(): ImagenSinProcesar[]
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>480</y>
+      <w>80</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>VGG19
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>408</y>
+      <w>136</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=1..n
+usa &gt;</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;90.0</additional_attributes>
   </element>
 </diagram>
