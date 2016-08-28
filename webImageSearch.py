@@ -3,6 +3,16 @@
 Created on Fri Aug 26 11:00:33 2016
 
 @author: dpbou
+
+MANUAL:
+Modificar la lista de palabras clave y ejecutar a pelo, sin parametros. 
+Cuidado con las dos constantes que definen el numero de fotos y el directorio destino.
+
+Baja NUMERO_FOTOS_POR_BUSQUEDA por cada palabra existente en lista_palabras_clave
+Las graba todas (con la extension mostrada en la URL) en la carpeta PATH_BD_FOTOS
+
+Solo cazo las excepciones al hacer el download del archivo. Si salta alguna, simplemente 
+la imprimo y sigo
 """
 
 import urllib2
@@ -21,14 +31,16 @@ def main():
     contador=0
     listaLinks = []
     for q in lista_palabras_clave:
-        res = disparaBusqueda(q)
-        i=0
-        for item in res["items"]:
-            i=i+1
-            if i>NUMERO_FOTOS_POR_BUSQUEDA: 
-                break
-            listaLinks.append(item["link"])
-            contador = contador+1
+        for pag in range(NUMERO_FOTOS_POR_BUSQUEDA // 10): #las busquedas de google van por paginas y cada pagina son solo 10 resultados
+            res = disparaBusqueda(q, pag)
+            i=0
+            for item in res["items"]:
+                i=i+1
+                if i>NUMERO_FOTOS_POR_BUSQUEDA: 
+                    break
+                listaLinks.append(item["link"])
+                contador = contador+1
+            #fin_for
         #fin_for
     #fin_for
     print "[BOU-Info: Total imagenes encontradas: %s" % len(listaLinks)
@@ -55,7 +67,7 @@ def saveImageFile(imageURL, fileName):
         #raise
     
     
-def disparaBusqueda(consulta):
+def disparaBusqueda(consulta, pagina):
   # Build a service object for interacting with the API. Visit
   # the Google APIs Console <http://code.google.com/apis/console>
   # to get an API key for your own application.
@@ -66,7 +78,7 @@ def disparaBusqueda(consulta):
       q = consulta,
       searchType = 'image',
       cx='017582315910912310424:wjdsjfiv_pc', # clave del motor de búsqueda que he dado de alta en google (https://cse.google.com/cse/all)
-      num = 100,
+      start=(pagina*10)+1
     ).execute()
   print "[BOU-Info: Consulta realizada con %s resultados, query='%s'" % (res["searchInformation"]["totalResults"], consulta)
   return res    
@@ -74,3 +86,4 @@ def disparaBusqueda(consulta):
 
 if __name__ == '__main__':
     main()
+    print "[BOU-ESTADO] FIN EJECUCION "
